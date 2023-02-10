@@ -22,3 +22,8 @@ h3, h4 {color : rgb(161, 62, 253);}
 /* descendant selector */
 div.link1 a {color : rgb(161, 62, 253);}
 div.link2 a {color :rgb(97, 49, 255)}
+
+*::selection {
+    color: white;
+    background-color: rgb(185, 180, 180);
+}
