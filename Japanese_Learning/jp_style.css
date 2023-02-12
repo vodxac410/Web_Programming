@@ -1,0 +1,54 @@
+body {
+    font-size: 1.05rem;
+    font-family: 'Shippori Mincho', serif;
+    color: black;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: justify;
+
+    background-image: url('images/bkg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*::selection {
+    color: white;
+    background-color: rgb(228, 220, 220);
+}
+
+.pageHead {
+    text-decoration: underline;
+    color : rgb(194, 230, 255);
+}
+
+.egHead::after {
+    content : "\25bc";
+}
+
+.explainSection {
+    margin-left: 20rem;
+    background-color: rgb(185, 180, 180);
+    position: relative;
+    height: 12rem;
+    width: 50rem;
+    letter-spacing: 0.2rem;
+}
+
+.exampleSection {
+    margin-left: 20rem;
+    background-color: rgb(185, 180, 180);
+    position: relative;
+    height: 9rem;
+    width: 50rem;
+    text-align: center;
+    letter-spacing: 0.2rem;
+}
+
+.explainList {
+    list-style-type: disc;
+}
+
+#hiragana, #katakana {
+    border-style: dashed;
+    border-spacing: 2rem;
+}
