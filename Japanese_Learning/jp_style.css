@@ -16,6 +16,11 @@ body {
     background-color: rgb(228, 220, 220);
 }
 
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .direct {
     cursor: pointer;
     text-decoration: underline;
@@ -25,15 +30,11 @@ body {
     color : rgb(194, 230, 255);
 }
 
-
 .egHead::after {
     content : "\25bc";
 }
 
-
-
-.explainSection {
-    margin-left: 20rem;
+.center.explainSection {
     background-color: rgb(185, 180, 180);
     position: relative;
     height: 12rem;
@@ -41,8 +42,7 @@ body {
     letter-spacing: 0.2rem;
 }
 
-.exampleSection {
-    margin-left: 20rem;
+.center.exampleSection {
     background-color: rgb(185, 180, 180);
     position: relative;
     height: 9rem;
@@ -51,14 +51,23 @@ body {
     letter-spacing: 0.2rem;
 }
 
+.explainSection h3 {
+    margin-left: 1rem;
+    line-height: 3rem;
+}
+
 .explainList {
     list-style-type: disc;
 }
 
+.banner1 {
+    border-color: black;
+    background-color: black;
+}
+
 #hiragana, #katakana {
     background-color: rgb(185, 180, 180);
-    margin-left: 42rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     border-style: dashed;
     border-spacing: 1.5rem;
 }
