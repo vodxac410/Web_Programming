@@ -51,6 +51,15 @@ body {
     letter-spacing: 0.2rem;
 }
 
+.center.exampleSection2 {
+    background-color: rgb(185, 180, 180);
+    position: relative;
+    height: 19rem;
+    width: 60rem;
+    text-align: center;
+    letter-spacing: 0.2rem;
+}
+
 .explainSection h3 {
     margin-left: 1rem;
     line-height: 3rem;
