@@ -1,6 +1,6 @@
 body {
     font-size: 1.05rem;
-    font-family: 'Shippori Mincho', serif;
+    font-family: 'Zen Kurenaido', sans-serif;
     color: black;
     line-height: normal;
     letter-spacing: normal;
@@ -21,6 +21,11 @@ body {
     margin-right: auto;
 }
 
+.flexible{
+    display: flexbox;
+    flex-direction: column;
+}
+
 .direct {
     cursor: pointer;
     text-decoration: underline;
@@ -34,35 +39,13 @@ body {
     content : "\25bc";
 }
 
-.center.explainSection {
+.center.flexible.section {
     background-color: rgb(185, 180, 180);
     position: relative;
-    height: 12rem;
-    width: 50rem;
-    letter-spacing: 0.2rem;
-}
-
-.center.exampleSection {
-    background-color: rgb(185, 180, 180);
-    position: relative;
-    height: 9rem;
-    width: 50rem;
-    text-align: center;
-    letter-spacing: 0.2rem;
-}
-
-.center.exampleSection2 {
-    background-color: rgb(185, 180, 180);
-    position: relative;
-    height: 19rem;
     width: 60rem;
+    padding-bottom: 5px;
     text-align: center;
-    letter-spacing: 0.2rem;
-}
-
-.explainSection h3 {
-    margin-left: 1rem;
-    line-height: 3rem;
+    letter-spacing: 0.3rem;
 }
 
 .explainList {
