@@ -49,6 +49,9 @@ body {
 }
 
 #hiragana, #katakana {
+    background-color: rgb(185, 180, 180);
+    margin-left: 42rem;
+    font-size: 1.5rem;
     border-style: dashed;
-    border-spacing: 2rem;
+    border-spacing: 1.5rem;
 }
