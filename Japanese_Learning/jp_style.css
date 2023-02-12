@@ -16,14 +16,21 @@ body {
     background-color: rgb(228, 220, 220);
 }
 
-.pageHead {
+.direct {
+    cursor: pointer;
     text-decoration: underline;
+}
+
+.direct.pageHead {
     color : rgb(194, 230, 255);
 }
+
 
 .egHead::after {
     content : "\25bc";
 }
+
+
 
 .explainSection {
     margin-left: 20rem;
