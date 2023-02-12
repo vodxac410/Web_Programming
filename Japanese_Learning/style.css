@@ -24,3 +24,8 @@ h3::after {
     height: 150px;
     width: 500px;
 }
+
+#hiragana, #katakana {
+    border-style: dashed;
+    border-spacing: 30px;
+}
