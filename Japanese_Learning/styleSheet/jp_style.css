@@ -6,7 +6,7 @@ body {
     letter-spacing: normal;
     text-align: justify;
 
-    background-image: url('images/bkg1.jpg');
+    background-image: url('../images/bkg1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
